@@ -12,7 +12,21 @@
     <!-- -->
 
     <!-- Links to our additional CSS styles -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css"> <link rel="stylesheet" href="https://use.typekit.net/tga2afn.css">
+
+
+
+[23:56] Iorgulescu, Diana (200262)
+
+font-family: carbon,sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+
+
 
     <!-- Alternative CSS for demonstration purposes. You must deactivate the Bootstrap CSS to activate this one. -->
     <!-- 
@@ -38,7 +52,7 @@
         <header> is a semantic element: it works exactly like <div>, but it gives information about the role of the code below.
         The "row" class is used for the Bootstrap grid.
       -->
-      <header class="row resume-header justify-content-center">
+      <header class="row resume-header justify-content-center resume-aside">
         <!--
           A container to wrap around the portrait and align it. We use Bootstrap grid columns.
           This constrains the portrait to columns of decreasing sizes
@@ -48,13 +62,13 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="images/portrait.svg" alt="Portrait of Firstname Lastname" width="160">
+          <img class="w-100 rounded-circle my-3" src="IMG_8500.jpg" alt="Portrait of Firstname Lastname" width="1284">
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
-          <h1 class="fw-bolder">Oana Micu</h1>
+          <h1 class="special-firstheader namefont">Oana Micu </h1>
           <h5 class="fst-italic tagline">Your expert in creative marketing.</h5>
         </div>
       </header>
@@ -75,7 +89,7 @@
             <section> is yet another semantic element. The first one is for professional experience.
           -->
           <section class="my-3 biography-section">
-            <h2>Professional Experience</h2>
+            <h2 class=special-firstheader namefont>Professional Experience</h2>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
               "list-unstyled" is a class that hides the bullet points of a list.
@@ -119,8 +133,8 @@
           <!-- We're done with jobs, let's move on to schools -->
 
           <section class="my-3 biography-section">
-            <h2>Education</h2>
-            <ul class="biography-list list-unstyled">
+            <h2 class="special-firstheader namefont">Education</h2>
+            <ul class="biography-list list-unstyled specia">
 
               <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
               <li class="biography-item row mb-2">
@@ -210,7 +224,7 @@
             <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
             <ul class="language-list list-unstyled">
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Dutch</h5>
+                <h5 class="language-name w-50">Romanian</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
@@ -221,7 +235,7 @@
                 <h5 class="language-name w-50">English</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-75"></div>
+                  <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
                 </div>
               </li>
@@ -229,8 +243,8 @@
                 <h5 class="language-name w-50">Spanish</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-50"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Advanced</h6>
+                  <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner&nbsp;</h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
